@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A90E479B29DE136400F4C45A /* Apple_3D_EarthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E479A29DE136400F4C45A /* Apple_3D_EarthApp.swift */; };
-		A90E479D29DE136400F4C45A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E479C29DE136400F4C45A /* ContentView.swift */; };
 		A90E479F29DE136500F4C45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90E479E29DE136500F4C45A /* Assets.xcassets */; };
 		A90E47A229DE136500F4C45A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90E47A129DE136500F4C45A /* Preview Assets.xcassets */; };
+		A90E47A929DE139300F4C45A /* GlobeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E47A829DE139300F4C45A /* GlobeMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A90E479729DE136400F4C45A /* Apple 3D Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple 3D Earth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90E479A29DE136400F4C45A /* Apple_3D_EarthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_3D_EarthApp.swift; sourceTree = "<group>"; };
-		A90E479C29DE136400F4C45A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A90E479E29DE136500F4C45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A90E47A129DE136500F4C45A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A90E47A829DE139300F4C45A /* GlobeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				A90E479A29DE136400F4C45A /* Apple_3D_EarthApp.swift */,
-				A90E479C29DE136400F4C45A /* ContentView.swift */,
 				A90E479E29DE136500F4C45A /* Assets.xcassets */,
 				A90E47A029DE136500F4C45A /* Preview Content */,
+				A90E47A829DE139300F4C45A /* GlobeMapView.swift */,
 			);
 			path = "Apple 3D Earth";
 			sourceTree = "<group>";
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A90E479D29DE136400F4C45A /* ContentView.swift in Sources */,
 				A90E479B29DE136400F4C45A /* Apple_3D_EarthApp.swift in Sources */,
+				A90E47A929DE139300F4C45A /* GlobeMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
